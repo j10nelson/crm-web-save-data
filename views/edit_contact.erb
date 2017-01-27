@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<div class="contact_editer">
+
+<div class="contact_editer_dets">
+
+
+<h1>Edit a Contact</h1>
+
+<form action='/contacts/<%= @contact.id %>' method='post'>
+  <input type='hidden' name='_method' value='put'>
+  <input type='text' placeholder="First Name" name='first_name' value='<%= @contact.first_name %>'>
+  <input type='text' placeholder="Last Name" name='last_name' value='<%= @contact.last_name %>'>
+  <input type='text' placeholder="Email"name='email' value='<%= @contact.email %>'>
+  <input type='text' placeholder="Note"name='note' value='<%= @contact.note %>'>
+  <input class="submit_form" type='submit' value='Edit Contact'>
+</form>
+</div>
+</div>
+</body>
+</html>

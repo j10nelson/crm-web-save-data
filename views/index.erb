@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<div class="contacts_count">
+    <p>
+      There is <span><%= Contact.all.count %></span> contacts
+    </p>
+    </div>
+    <ul class="contacts_listed">
+      <% Contact.all.each do |contact| %>
+        <li><%= contact.first_name %> <%= contact.last_name %>
+        (<%= contact.email %>)
+        <br>
+        <div class="btns">
+
+
+        <a href="/contacts/<%=contact.id%>/edit"><button>Edit Contact</button></a>
+           <form action='/contacts/<%= contact.id %>' method='post'>
+             <input type='hidden' name='_method' value='delete'>
+             <input type='submit' value='Delete Contact'>
+             </div>
+          </li>
+      <% end %>
+    </ul>
+
+  </body>
+</html>

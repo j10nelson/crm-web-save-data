@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+font-family: helvitica neue, arial;
+}
+button {
+  float: left;
+  padding: 3px;
+}
+.btns {
+  margin: 5px auto 15px auto;
+}
+input {
+float: left;
+}
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header {
+  background-color: #838383;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  width: 96%;
+  margin: auto auto;
+  overflow: hidden;
+}
+
+header h1 {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 5px 0;
+  border: 1px solid #fff;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+.nav {
+  margin: 0 auto;
+  padding: 0;
+  background-color: lightgrey;
+  text-align: center;
+  width: 96%;
+}
+
+
+ul.contacts_listed {
+width: 90%;
+margin: 10px auto;
+padding-left: 0;
+
+
+}
+
+.contacts_listed li a {
+  font-size: 11px;
+}
+
+.contacts_listed li span {
+  font-weight: 200;
+  padding-top: 10px;
+
+}
+
+.contacts_listed li {
+  background-color: #21ffd6;
+  padding: 20px 3%;
+  margin: 10px auto;
+}
+
+.contacts_count {
+  background-color: #e55269;
+  font-size: 21px;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 15px ;
+  overflow: hidden;
+
+}
+
+.contacts_count span {
+  border-bottom: 1px solid #21ffd6;
+}
+
+.contacts_count p {
+  margin: 0;
+}
+
+.footer_copyright {
+  width: 96%;
+  background-color: black;
+  color: white;
+  font-size: 65%;
+  font-weight: lighter;
+  text-align: center;
+  padding: 15px 0;
+  margin: auto auto;
+}
+
+.create_contact {
+  margin: auto 40px 20px;
+  overflow: hidden;
+}
+
+ .create_contact h2 {
+  margin-bottom: 10px;
+}
+.contact_info {
+  margin: auto 30px;
+  background-color: beige;
+  padding: 20px;
+  width: 30%;
+  margin: 20px 0 20px 50px;
+  border: 3px solid black;
+}
+
+.contact_name {
+  text-decoration: underline;
+}
+
+.contact_editer {
+  background-color: beige;
+  margin: 10px 30px 10px 50px;
+  border: 3px solid black;
+  width: 25%;
+  overflow: hidden;
+}
+
+.contact_editer_dets {
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.submit_form {
+  display: block;
+  margin: 5px;
+}
+
+.all_contacts {
+  margin: auto 30px;
+}
